@@ -1,12 +1,12 @@
 # taro 
   简介 
-  Taro 是一套遵循 React 语法规范的 多端开发 解决方案
+  Taro 是一套遵循 React 语法规范的, 针对 Web-h5、React-Native、微信小程序等多端开发的解决方案. 
   [api 文档](https://nervjs.github.io/taro/docs/README.html)
   
 > A taro project
 
 # created project
-  taro init myApp / npx @tarojs/cli init myApp (npx: npm v5.2.0引入的一条命令（npx）,目的是为了提升开发者使用包内提供的命令行工具的体验。)
+  taro init myApp / npx @tarojs/cli init myApp (npx: npm v5.2.0引入的一条命令,目的是为了提升开发者使用包内提供的命令行工具的体验。)
 
 # install project dependencies
   ``` npm install and yarn install ``` 
