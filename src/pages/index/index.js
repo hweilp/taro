@@ -6,6 +6,7 @@ import { add, minus, asyncAdd } from '../../store/actions/counter'
 
 import './index.scss'
 
+import Utils from '../../utils'
 
 @connect(({ counter }) => ({
   counter
@@ -26,19 +27,24 @@ class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  componentWillReceiveProps (nextProps) {
-    console.log(this.props, nextProps)
+  componentWillReceiveProps () {
   }
 
-  componentWillUnmount () { }
+  componentWillUnmount () {
+  }
 
-  componentDidShow () { }
+  componentDidShow () {
+    Utils.ShowInfoToast('加载了')
+  }
 
   componentDidHide () { }
 
   render () {
     return (
       <View className='index'>
+        <view>
+          <Text>首页</Text>
+        </view>
         <Button className='add_btn' onClick={this.props.add}>+</Button>
         <Button className='dec_btn' onClick={this.props.dec}>-</Button>
         <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
