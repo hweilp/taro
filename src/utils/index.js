@@ -1,6 +1,10 @@
 import { ShowInfoToast, ShowLoading } from './showToast'
+import { GetAuthList, IsHaveAuth, SetAuth } from './authorization'
 
 export default{
   ShowInfoToast,
-  ShowLoading
+  ShowLoading,
+  GetAuthList,
+  IsHaveAuth,
+  SetAuth
 }

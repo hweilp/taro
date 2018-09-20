@@ -10,7 +10,7 @@ import './app.scss'
 
 const store = configStore ()
 
-console.log(Taro.getEnv())
+// console.log(Taro.getEnv())
 
 class App extends Component {
 
@@ -61,7 +61,6 @@ class App extends Component {
   }
 
   componentDidShow () {
-    // Taro.hideTabBar()
   }
 
   componentDidHide () {}
