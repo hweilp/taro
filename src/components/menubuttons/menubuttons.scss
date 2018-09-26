@@ -1,0 +1,37 @@
+.menu-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.menu-item {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-img-view{
+  display: flex;
+  min-height: 50px;
+  flex:1;
+}
+.menu-text-view{
+  display: flex;
+  position: relative;
+  top: 20px;
+}
+.menu-item .menu-image {
+  display: block;
+  margin: 0 auto;
+  flex: 1;
+  height: 80px;
+  width: 80px;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 80px;
+  max-width: 80px;
+}
+.menu-item .menu-text {
+  display: block;
+  font-size: 16px;
+  line-height: 1ch;
+}
