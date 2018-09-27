@@ -1,20 +1,25 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Text, WebView } from '@tarojs/components'
 
 export default class WebViewPage extends Component {
   constructor (props) {
     super (props)
     this.state = {
-
+      src: ''
     }
   }
   config = {
     navigationBarTitleText: 'h5'
   }
+  componentWillMount () {
+    this.setState({
+      src: this.$router.params.src
+    })
+  }
   render () {
     return (
       <View>
-        <Text>webview页面</Text>
+        <WebView src={this.state.src} />
       </View>
     )
   }

@@ -31,7 +31,7 @@ class Index extends Component {
         {
           title: '网址',
           key: 'website',
-          val: 'https://www.baidu.com',
+          val: 'https://www.maibei168.com',
           icon: 'http://img12.360buyimg.com/jdphoto/s72x72_jfs/t10660/330/203667368/1672/801735d7/59c85643N31e68303.png',
           isOpr: true,
           opr_type: 3
@@ -66,9 +66,12 @@ class Index extends Component {
     })
   }
   AtListonClick (e) {
-    if (Taro.getEnv() === 'WEB') return
+    const longitude = '120.21201'
+    const latitude = '30.2084'
+
     switch (e.opr_type) {
       case 1:
+        if (Taro.getEnv() === 'WEB') return
         Taro.showActionSheet({itemList: ['拨打电话']}).then(res => {
           Taro.makePhoneCall({
             phoneNumber: e.val
@@ -76,16 +79,22 @@ class Index extends Component {
         }).catch(err => {})
         break
       case 2:
+        if (Taro.getEnv() === 'WEB') return
         Taro.navigateTo({
-          url: '/pages/map/index'
+          url: '/pages/map/index?address=' + e.val + '&latitude=' + latitude + '&longitude=' + longitude
         })
         break
       case 3:
-        Taro.navigateTo({
-          url: '/pages/webview/index'
-        })
+        if (Taro.getEnv() === 'WEB') {
+          window.open(e.val)
+        } else {
+          Taro.navigateTo({
+            url: '/pages/webview/index?src=' + e.val
+          })
+        }
         break
       case 4:
+        if (Taro.getEnv() === 'WEB') return
         let imgs = []
         imgs.push(e.src)
         Taro.previewImage({

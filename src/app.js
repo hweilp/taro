@@ -20,7 +20,7 @@ class App extends Component {
       'pages/products/index',
       'pages/contact/index',
       'pages/webview/index',
-      'pages/map/index',
+      'pages/map/index'
     ],
     window: {
       backgroundTextStyle: 'light',
