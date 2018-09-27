@@ -66,9 +66,9 @@ class Index extends Component {
     })
   }
   AtListonClick (e) {
+    if (Taro.getEnv() === 'WEB') return
     switch (e.opr_type) {
       case 1:
-        if (Taro.getEnv() === 'WEB') return
         Taro.showActionSheet({itemList: ['拨打电话']}).then(res => {
           Taro.makePhoneCall({
             phoneNumber: e.val
@@ -76,11 +76,16 @@ class Index extends Component {
         }).catch(err => {})
         break
       case 2:
+        Taro.navigateTo({
+          url: '/pages/map/index'
+        })
         break
       case 3:
+        Taro.navigateTo({
+          url: '/pages/webview/index'
+        })
         break
       case 4:
-        if (Taro.getEnv() === 'WEB') return
         let imgs = []
         imgs.push(e.src)
         Taro.previewImage({

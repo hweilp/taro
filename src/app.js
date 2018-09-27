@@ -18,7 +18,9 @@ class App extends Component {
     pages: [
       'pages/index/index',
       'pages/products/index',
-      'pages/contact/index'
+      'pages/contact/index',
+      'pages/webview/index',
+      'pages/map/index',
     ],
     window: {
       backgroundTextStyle: 'light',

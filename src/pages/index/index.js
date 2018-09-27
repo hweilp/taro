@@ -2,7 +2,6 @@ import Taro, { Component } from '@tarojs/taro'
 import { View, Button, Text, Image } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
 import SwiperView  from '../../components/swiper/swiper'
-import MenuButtons  from '../../components/menubuttons/menubuttons'
 import { AtGrid, AtNoticebar } from 'taro-ui'
 import { getBannerList } from '../../store/actions/actions'
 
