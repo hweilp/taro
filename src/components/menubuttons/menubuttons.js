@@ -5,15 +5,20 @@ import './menubuttons.scss'
 export default class MenuButtons extends Component {
   constructor (props) {
     super (props)
-    this.state = {}
+    this.state = {
+      id: 2
+    }
   }
 
-  btnClick (e) {
-    if (Taro.getEnv() === 'WEB') {
-      console.log(e.currentTarget.attributes.dataUrl.value)
-    } else {
-      console.log(e.currentTarget.dataset.dataset)
-    }
+  btnClick = (id, e) => {
+    e.stopPropagation()
+    const { onBtnClick } = this.props
+    onBtnClick(id)
+    // if (Taro.getEnv() === 'WEB') {
+    //   console.log(e.currentTarget.attributes.dataUrl.value)
+    // } else {
+    //   console.log(e.currentTarget.dataset.dataset)
+    // }
   }
 
   render () {
@@ -22,7 +27,7 @@ export default class MenuButtons extends Component {
       <View className='menu-wrapper'>
         {
           menus.map((item, index) => {
-            return <View className='menu-item' dataUrl={item.id} data-dataset={item} key={index} onClick={this.btnClick.bind(item)}>
+            return <View className='menu-item' dataUrl={item.id} data-dataset={item} key={index} onClick={this.btnClick.bind(this, item)}>
               <View className='menu-img-view'>
                 <Image className='menu-image' src={item.image} />
               </View>

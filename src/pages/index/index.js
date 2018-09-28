@@ -2,6 +2,7 @@ import Taro, { Component } from '@tarojs/taro'
 import { View, Button, Text, Image } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
 import SwiperView  from '../../components/swiper/swiper'
+import MenuButtons  from '../../components/menubuttons/menubuttons'
 import { AtGrid, AtNoticebar } from 'taro-ui'
 import { getBannerList } from '../../store/actions/actions'
 
@@ -75,10 +76,10 @@ class Index extends Component {
   menuButtons (e) {
     console.log(e)
   }
-  add = () => {
-  }
 
-  componentDidHide () { }
+  btnClick (e) {
+    console.log(e)
+  }
 
   render () {
     const SwiperList = this.props.banner.list
@@ -91,6 +92,7 @@ class Index extends Component {
           SwiperList={SwiperList}
           indicatorDots={true}
         />
+        {/*<MenuButtons menus={Idea.list} onBtnClick={this.btnClick.bind(this)}/>*/}
         <AtNoticebar icon='volume-plus' marquee>
           {tips}
         </AtNoticebar>
