@@ -1,0 +1,31 @@
+.product{
+  padding: 20px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+.hover-class{
+  opacity: .9;
+}
+.product-view{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  flex-direction: column;
+  width: 50%;
+}
+.product-title{
+  padding: 10px 0;
+  font-size: 28px;
+  text-align: center;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.product-image{
+  width: 100%;
+}

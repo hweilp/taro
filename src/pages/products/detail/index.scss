@@ -1,0 +1,27 @@
+.bottom-fixed{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.bottom-fixed-btn{
+  text-align: center;
+  font-size: 28px;
+  line-height: 80px;
+  color: white;
+  height: 80px;
+  width: 100%;
+  background: #f12c20;
+  z-index: 999;
+}
+
+.bottom-fixed-btn-hover{
+  opacity: .7;
+}
+
+.product-info{
+  width: 100%;
+}
+.product-img{
+  width: 100%;
+  height: 400px;
+}

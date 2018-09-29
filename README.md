@@ -40,3 +40,13 @@
      ── app.css            项目总通用样式  
      ── app.js             项目入口文件  
   ─ package.json    
+
+# 效果图
+
+![image](https://github.com/hwhtml/taro/master/screenShot/1538215097238.jpg)
+
+
+ ![image](https://github.com/hwhtml/taro/master/screenShot/1538215124924.jpg)
+
+
+ ![image](https://github.com/hwhtml/taro/master/screenShot/1538215211847.jpg)

@@ -36,7 +36,7 @@ class Index extends Component {
     const current = this.state.current
     const tabList = this.state.tabList
     return (
-      <View className='index'>
+      <View className='container'>
         <AtTabs
           current={current}
           tabList={tabList}
