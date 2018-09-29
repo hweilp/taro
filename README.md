@@ -43,10 +43,10 @@
 
 # 效果图
 
-![image](https://github.com/hwhtml/taro/master/screenShot/1538215097238.jpg)
+![image](https://github.com/hwhtml/taro/blob/master/screenShot/1538215097238.jpg?raw=true)
 
 
- ![image](https://github.com/hwhtml/taro/master/screenShot/1538215124924.jpg)
+ ![image](https://github.com/hwhtml/taro/blob/master/screenShot/1538215124924.jpg?raw=true)
 
 
- ![image](https://github.com/hwhtml/taro/master/screenShot/1538215211847.jpg)
+ ![image](https://github.com/hwhtml/taro/blob/master/screenShot/1538215211847.jpg?raw=true)

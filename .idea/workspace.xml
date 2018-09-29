@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e70e8f6-0c49-4459-af22-6cc328d4abd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/products/detail/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/products/detail/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/configs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/status.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.scss" afterPath="$PROJECT_DIR$/src/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/index.js" afterPath="$PROJECT_DIR$/src/pages/products/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/index.scss" afterPath="$PROJECT_DIR$/src/pages/products/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/productList.js" afterPath="$PROJECT_DIR$/src/pages/products/productList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,8 +44,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="51" column="76" lean-forward="false" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+            <state relative-caret-position="340">
+              <caret line="51" column="77" lean-forward="false" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -253,12 +243,12 @@
       <workItem from="1537335679856" duration="1633000" />
       <workItem from="1537337490369" duration="30574000" />
       <workItem from="1537866375453" duration="34265000" />
-      <workItem from="1538209788649" duration="5649000" />
+      <workItem from="1538209788649" duration="5764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72121000" />
+    <option name="totallyTimeSpent" value="72236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -683,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="51" column="76" lean-forward="false" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+        <state relative-caret-position="340">
+          <caret line="51" column="77" lean-forward="false" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
           <folding />
         </state>
       </provider>
