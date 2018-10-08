@@ -1,0 +1,21 @@
+.menu-wrapper{
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.menu-wrapper-item{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu-wrapper-item-image{
+  height: 30px;
+  width: 30px;
+}
+
+.menu-wrapper-item-text{
+  font-size: 30px;
+}

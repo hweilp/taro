@@ -5758,9 +5758,9 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-taro-ui@^1.2.2:
-  version "1.2.2"
-  resolved "http://registry.npm.taobao.org/taro-ui/download/taro-ui-1.2.2.tgz#437d7d8f2a309985e90d4c89bd31043696dd3422"
+taro-ui@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.taobao.org/taro-ui/download/taro-ui-1.2.3.tgz#48156a0c85fce719660f65de268015a42d691e22"
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.10"
